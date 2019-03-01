@@ -7,7 +7,6 @@
 2. 链表中没有，将新结点放至第一个结点，删除尾节点
 */
 #include <stdio.h>
-#include <stdbool.h>
 
 typedef struct DlistNode {
   struct DlistNode *pre;
